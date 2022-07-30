@@ -1,0 +1,12 @@
+.step{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px;
+}
+p {
+    font-size: 1rem;
+     font-weight: 500;
+     line-height: 1.2;
+     color:rgb(255, 7, 7);
+ }
