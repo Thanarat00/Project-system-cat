@@ -25,7 +25,6 @@ export class Adopt extends Component {
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
-              <br></br>
                 <ul> 
                     <li>This is a longer card with supporting text </li>
                     <li>This is a longer card with supporting text </li>
