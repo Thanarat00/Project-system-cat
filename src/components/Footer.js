@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-
+import './Footer.css';
 export class Footer extends Component {
   render() {
     return (
-        <div class="p-3 mb-2 bg-dark  text-dark">
-
+        <div className='footer'>
+     
             </div>
     )
   }

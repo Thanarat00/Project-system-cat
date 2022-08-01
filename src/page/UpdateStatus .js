@@ -17,7 +17,7 @@ import UploadVideo from '../components/UploadVideo';
     const handleClose = () => setShow(false);
 
     return (
-        <div class="p-3 mb-2 bg-dark text-dark">
+   
         
       
         <div className='announce'>
@@ -137,7 +137,7 @@ import UploadVideo from '../components/UploadVideo';
  
          
                </div>
-               </div>
+               
     )
   }
 

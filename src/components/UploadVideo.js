@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Uploadvideo.css'
+
 export default class UploadVideo extends Component {
     render() {
         return (
@@ -12,4 +13,3 @@ export default class UploadVideo extends Component {
     }
 }
 
-c

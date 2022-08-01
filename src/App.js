@@ -24,8 +24,10 @@ function App(){
   
   return(
     <div className="App"> 
+    <div className="bg ">
     <BrowserRouter>
       <TheNavbar />
+      
       <Routes>
          <Route path="/" element={<Home />} />
          <Route path="/announce" element={<Announce/>} />
@@ -37,7 +39,9 @@ function App(){
          <Route path="/rearing" element={<Rearing />} />
          <Route path="/call" element={<Call/>}/>
       </Routes>
+      
   </BrowserRouter>
+  </div>
     <Footer/>
     </div>
   )

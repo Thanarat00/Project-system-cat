@@ -17,7 +17,7 @@ import './Home.css';
 
 
     return (
-        <div class="p-3 mb-2 bg-dark  text-dark">
+        <div class="text-dark">
          <div className='Model'>
          <Upload />
           </div>

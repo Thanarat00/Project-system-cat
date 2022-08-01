@@ -22,8 +22,10 @@ function TheModel() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title><Uploadimagess/></Modal.Title>
+          <Modal.Title></Modal.Title>
+
         </Modal.Header>
+        <Uploadimagess/>
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

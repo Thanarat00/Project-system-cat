@@ -4,7 +4,7 @@ import Figure from 'react-bootstrap/Figure';
 export class Call extends Component {
   render() {
     return (
-        <div class="p-3 mb-2 bg-dark  text-dark">
+       
 
             <div className="step">
                     <p>1.สมัครสมาชิก </p>
@@ -52,7 +52,7 @@ export class Call extends Component {
 
 
                         </div>
-        </div>
+        
     )
   }
 }

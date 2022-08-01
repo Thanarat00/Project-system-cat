@@ -8,7 +8,7 @@ import Detail from '../components/Detail';
 export class Home extends Component {
   render() {
     return (
-      <div class="p-3 mb-2 bg-dark  text-dark">
+     
       <div className='Search'>
         <center><Searchbar /></center>
         
@@ -207,7 +207,7 @@ export class Home extends Component {
 
       </div>
       
-      </div>
+      
     )
   }
 }

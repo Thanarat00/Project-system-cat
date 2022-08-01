@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 export class Rearing extends Component {
   render() {
     return (
-        <div class="p-3 mb-2 bg-dark  text-dark">
+       <div>
         <div className='Search'>
         <center><Searchbar /></center>
         </div>
@@ -105,11 +105,11 @@ export class Rearing extends Component {
       </div>
 
 
-
+      </div>
       </div>
 
 
-        </div>
+      
     )
   }
 }
