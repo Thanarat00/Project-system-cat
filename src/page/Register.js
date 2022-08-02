@@ -56,7 +56,7 @@ function Register() {
        <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>อายุ</Form.Label>
-          <Form.Control type="age" placeholder="Enter email" />
+          <Form.Control type="age" />
         </Form.Group>
           <Form.Group as={Col} controlId="formGridEmail">
               <Form.Label>เพศ</Form.Label>
