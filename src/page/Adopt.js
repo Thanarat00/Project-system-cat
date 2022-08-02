@@ -28,7 +28,7 @@ export class Adopt extends Component {
                 <ul> 
                     <li>This is a longer card with supporting textrythtdu67447456 </li>
                     <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
+                    <li>This is a longer card with supporting text123321 </li>
                     <li>This is a longer card with supporting text </li>
                     <li>This is a longer card with supporting text </li>
                     <li>This is a longer card with supporting text </li>
