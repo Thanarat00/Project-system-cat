@@ -49,7 +49,9 @@ export class Announce extends Component {
         </Col>
       ))}
     </Row>
-      
+    
+  
+
             </div>
             
             
