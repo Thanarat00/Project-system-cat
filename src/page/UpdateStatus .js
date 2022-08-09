@@ -112,9 +112,7 @@ import UploadVideo from '../components/UploadVideo';
                                 </li>
                                 
                                 
-                  <Button variant="info" onClick={handleClose}>
-                  อัพโหลดรูปภาพ
-                 </Button>      
+                                <UploadVideo/>
              
                   </ul>
                  </Card.Text>
