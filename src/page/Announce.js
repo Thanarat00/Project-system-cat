@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import './Home.css';
-import { AiFillDelete } from "react-icons/ai";
 import Edit from '../components/Edit';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Modal from 'react-bootstrap/Modal';
+import Delete from '../components/Delete';
 
 
 export class Announce extends Component {
@@ -42,7 +41,7 @@ export class Announce extends Component {
               </Card.Text>
               <Modal.Footer>
                 <Edit />
-                 <Button variant="danger"><AiFillDelete/></Button>
+                <Delete />
                  </Modal.Footer>
             </Card.Body>
           </Card>

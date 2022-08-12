@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { AiFillDelete } from "react-icons/ai";
 import Modal from 'react-bootstrap/Modal';
+import Delete from '../components/Delete';
 
 
 
@@ -41,7 +42,7 @@ export class Adopt extends Component {
                </ul>
               </Card.Text>
               <Modal.Footer>
-                 <Button variant="danger"><AiFillDelete/></Button>
+                <Delete />
                  </Modal.Footer>
             </Card.Body>
           </Card>
