@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import { AiFillDelete } from "react-icons/ai";
 import Modal from 'react-bootstrap/Modal';
 import Delete from '../components/Delete';
 
