@@ -19,7 +19,7 @@ function Delete() {
       <AiFillDelete/>
       </Button>
 
-      <Modal show={show} onHide={handleClose}   size='sm'>
+      <Modal show={show} onHide={handleClose}   size='sm' className="text-center">
         <Modal.Header   className='text-danger'>
           <Modal.Title>Are You Sure?</Modal.Title>
         </Modal.Header>
