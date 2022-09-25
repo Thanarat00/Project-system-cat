@@ -12,6 +12,8 @@
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
+    "react-native-otp-form": "^1.0.2",
+    "react-native-otp-forminput": "^1.0.0",
     "react-scripts": "5.0.1",
     "react-slideshow-image": "^4.0.4",
     "react-states": "^7.2.0",

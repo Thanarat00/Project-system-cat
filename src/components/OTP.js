@@ -1,13 +1,23 @@
-import React, { useState} from 'react'
-import Form from 'react-bootstrap/Form';
+import React, { useState}  from 'react'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import { useRef } from 'react';
 
 function OTP() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const otpInput = useRef(null);
+
+  const clearText = () => {
+      otpInput.current.clear();
+  }
+
+  const setText = () => {
+      otpInput.current.setValue("1234");
+  }
+
 
   return (
     <>
@@ -24,21 +34,12 @@ function OTP() {
         </Modal.Header>
         <Modal.Body>
       
-    
-      <Form>
-      <Form.Group className="mb-3" controlId="formGroupPassword">
-        <Form.Control type="Username"  />
-      </Form.Group>
-    </Form>
-    
-    
+     
+      
+            <OTPTextInput ref={setText => (otpInput = setText)} /> 
+            <Button title="clear" onClick={clearText}/> 
       
 
-
-
-
-   
-        
         </Modal.Body>
 
    
@@ -46,4 +47,5 @@ function OTP() {
     </>
   )
 }
-export default OTP
+
+export default OTP ;
