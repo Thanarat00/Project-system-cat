@@ -3,9 +3,9 @@ import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import OTP from '../components/OTP';
+import Button from 'react-bootstrap/Button';
 import Uploadimage from '../components/Uploadimage';
-
+import OTP from '../components/OTP';
 function Register() {
   const [show, setShow] = useState(false);
 
@@ -14,8 +14,8 @@ function Register() {
 
   return (
     <>
-      <a  href='##'   onClick={handleShow} >
-        Register
+      <a href='##' onClick={handleShow} >
+        Register 
         </a>
      
 
@@ -108,11 +108,15 @@ function Register() {
           <Form.Control type="tel"  />
         </Form.Group>
       </Row>
-       <OTP />
+       
     </Form>
        </Modal.Body>
-       
-      
+       <Modal.Footer>
+        <OTP />
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
       </Modal>
     </>
   );

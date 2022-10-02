@@ -38,6 +38,7 @@ function Homepage(){
          <Route path="/step2" element={<Step2 />} />
          <Route path="/rearing" element={<Rearing />} />
          <Route path="/call" element={<Call/>}/>
+
       </Routes>
       
   </BrowserRouter>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Figure from 'react-bootstrap/Figure';
+import Register from './Register';
 
 export class Call extends Component {
   render() {
@@ -7,6 +8,7 @@ export class Call extends Component {
        
 
             <div className="step">
+                <Register />
                     <p>1.สมัครสมาชิก </p>
                     <br></br>
                         <Figure>

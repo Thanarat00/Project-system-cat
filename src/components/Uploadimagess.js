@@ -5,7 +5,7 @@ import './Uploadimage.css';
 
 export class Uploadimage extends Component {
     state={
-        profileImg: "/images/Upload-PNG-HD-Image.png"
+        profileImg: '/images/Upload-PNG-HD-Image.png'
     }
     imageHandler = (e) => {
         const reader = new FileReader();

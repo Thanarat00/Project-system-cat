@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Searchbar from '../components/Searchbar'
 import './Home.css';
 import Card from 'react-bootstrap/Card';
+import Detailrearing from '../components/Detailrearing';
 
 
 export class Rearing extends Component {
@@ -19,7 +20,7 @@ export class Rearing extends Component {
       <Card.Img variant="top" src="/images/cat-sm1.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
-       
+       <Detailrearing />
       </Card.Body>
     </Card>
       </div>
@@ -29,7 +30,7 @@ export class Rearing extends Component {
       <Card.Img variant="top" src="/images/cat-sm1.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
-        
+        <Detailrearing />
       </Card.Body>
     </Card>
       </div>
@@ -39,7 +40,7 @@ export class Rearing extends Component {
       <Card.Img variant="top" src="/images/cat-sm1.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
-       
+        <Detailrearing />
       </Card.Body>
     </Card>
       </div>
@@ -49,7 +50,7 @@ export class Rearing extends Component {
       <Card.Img variant="top" src="/images/cat-sm1.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
-    
+        <Detailrearing />
       </Card.Body>
     </Card>
       </div>
@@ -59,27 +60,7 @@ export class Rearing extends Component {
       <Card.Img variant="top" src="/images/cat-sm1.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
-        
-      </Card.Body>
-    </Card>
-      </div>
-
-
-      <div className='cat-item'>
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="/images/cat-sm1.jpg" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        
-      </Card.Body>
-    </Card>
-      </div>
-
-      <div className='cat-item'>
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="/images/cat-sm1.jpg" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Detailrearing />
       </Card.Body>
     </Card>
       </div>
@@ -90,6 +71,17 @@ export class Rearing extends Component {
       <Card.Img variant="top" src="/images/cat-sm1.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
+        <Detailrearing />
+      </Card.Body>
+    </Card>
+      </div>
+
+      <div className='cat-item'>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="/images/cat-sm1.jpg" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Detailrearing />
       </Card.Body>
     </Card>
       </div>
@@ -100,6 +92,18 @@ export class Rearing extends Component {
       <Card.Img variant="top" src="/images/cat-sm1.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
+        <Detailrearing />
+      </Card.Body>
+    </Card>
+      </div>
+
+
+      <div className='cat-item'>
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="/images/cat-sm1.jpg" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Detailrearing />
       </Card.Body>
     </Card>
       </div>

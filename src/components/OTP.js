@@ -1,8 +1,9 @@
 import React, { useState}  from 'react'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import OTPInput, { ResendOTP } from "otp-input-react";
 import { useRef } from 'react';
-
+import Footer from './Footer.css'
 function OTP() {
   const [show, setShow] = useState(false);
 
@@ -13,11 +14,15 @@ function OTP() {
   const clearText = () => {
       otpInput.current.clear();
   }
-
-  const setText = () => {
-      otpInput.current.setValue("1234");
-  }
-
+  const [OTP, setOTP] = useState("10");
+  const renderButton = (buttonProps) => {
+    return (
+      <button {...buttonProps}>
+        {buttonProps.remainingTime !== 0 ? `กรุณารอสักครู่ ${buttonProps.remainingTime} sec` : "ส่งซ้ำ"}
+      </button>
+    );
+  };
+  const renderTime = () => React.Fragment;
 
   return (
     <>
@@ -34,11 +39,17 @@ function OTP() {
         </Modal.Header>
         <Modal.Body>
       
-     
+        <div className='otp'>
       
-            <OTPTextInput ref={setText => (otpInput = setText)} /> 
-            <Button title="clear" onClick={clearText}/> 
-      
+        <OTPInput value={OTP} onChange={setOTP} autoFocus={true} OTPLength={6} otpType="number" disabled={false}  /><br></br>
+        <ResendOTP renderButton={renderButton} renderTime={renderTime} />
+        <br></br><br></br>
+       
+        <button className='buttonn'>
+         ยินยัน OTP
+      </button>
+   
+       </div>
 
         </Modal.Body>
 
