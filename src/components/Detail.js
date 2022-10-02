@@ -1,357 +1,44 @@
-import React, { useState } from 'react'
+import React from "react";
+import './Footer.css';
 import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import Carousel from 'react-bootstrap/Carousel';
-import Card from 'react-bootstrap/Card';
-import Interested from './Interested';
- 
-    function Detail() {
-                const [show, setShow] = useState(false);
-
-                const handleClose = () => setShow(false);
-                const handleShow = () => setShow(true);
-    return (
-        <>
-        <Button variant="primary" onClick={handleShow} size='xl'>
-          รายละเอียด 
-        </Button>
-  
-        <Modal show={show} onHide={handleClose} >
-          <Modal.Header closeButton>
-          </Modal.Header>
-          <Modal.Body>
-          <Carousel>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="/images/cat-sm1.jpg"
-                    alt="First slide"
-                    />
-                    <Carousel.Caption>
-                    
-                </Carousel.Caption>
-                <Card.Text>
-                <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-            </Carousel.Item>
-
-
-
-
-
-
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src="/images/1.jpg"
-                    alt="Second slide"
-                    />
-
-                    <Carousel.Caption>
-                    
-
-                    </Carousel.Caption>
-                    <Card.Text>
-                      <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-                </Carousel.Item>
-
-
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="/images/2.jpg"
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        
-                    
-                        </Carousel.Caption>
-
-                        <Card.Text>
-                        <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="/images/3.jpg"
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        
-                    
-                        </Carousel.Caption>
-
-                        <Card.Text>
-                        <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="/images/4.jpg"
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        
-                    
-                        </Carousel.Caption>
-
-                        <Card.Text>
-                        <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="/images/5.jpg"
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        
-                    
-                        </Carousel.Caption>
-                        <Card.Text>
-                        <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="/images/6.jpg"
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        
-                    
-                        </Carousel.Caption>
-                        <Card.Text>
-                        <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="/images/8.png"
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        
-                    
-                        </Carousel.Caption>
-                        <Card.Text>
-                        <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="/images/9.jpg"
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        
-                    
-                        </Carousel.Caption>
-                        <Card.Text>
-                        <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="/images/10.jpg"
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        
-                    
-                        </Carousel.Caption>
-                        <Card.Text>
-                        <br></br>
-                <ul> 
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
-
-
-                    </Carousel.Item>
-                    
-    </Carousel>
-
+import { Link } from 'react-router-dom';
+import { ImUndo2 } from "react-icons/im";
+function Detail() {
+  return (
+   <div className="cathead"> 
+   <Link to="/rearing">
+      <Button className="link"  variant="dark" ><ImUndo2 /></Button>
+      </Link>
+    <h2>แมวเปอร์เซีย</h2>
     
-          </Modal.Body>
-          <Modal.Footer>
-           <Interested />
-        
-  
-          </Modal.Footer>
-        </Modal>
-      </>
-    )
-  }
+   <div className="imagesss">
+   
+    <img src="https://cdn.pixabay.com/photo/2017/06/09/09/39/adler-2386314_960_720.jpg" width={600} height={350} />
 
+   </div>
+   <br></br>
+  <p className="p1">
+  1. หมั่นแปรงขนเป็นประจำ จุดเด่นของแมวเปอร์เซีย นั้นอยู่ที่ขนนุ่มยาวของมัน ที่ทำให้แมวเปอร์เซียดูสง่าหรูหรามากกว่าพันธุ์ไหน ๆ
+   จนเป็นที่ชื่นชอบของผู้คนมากมาย เราจึงควรดูแลขนของมันให้ดูนุ่มสลวยอยู่เสมอ ด้วยการใช้หวีแปรงขนให้แมวของคุณ อย่างน้อยวันละ 15 นาที 
+   นอกจากนี้ ควรเน้นในจุดที่น้องแมวของคุณไม่สามารถเอื้อมไปเลียขนไม่ถึง เป็นพิเศษด้วย เช่น ที่คอ ขา และหาง</p>
+   <p className="p1">
+    2. อย่าปล่อยให้แมวอ้วนจนเกินไป แม้ว่าแมวอ้วนกลมจะดูน่า รักน่าเอ็นดูก็เถอะ แต่เราก็ไม่ควรปล่อยให้อ้วนจนเกินไป เพราะมันจะไม่ดีกับสุขภาพร่างกายของเจ้าเหมียวแน ่ ๆ 
+  แต่ถ้าหากเผลอตามใจจน “เสียแมว” ไปแล้วล่ะก็ ยังไม่สายที่คุณจะจับเขามาเข้าคอร์สไดเอทด้วยการเลือกอาหารลดน้ำหนักสำหรับ แมวโดยเฉพาะ หรือปรับลดเนื้อสัตว์ 
+  เพิ่มผักทีละน้อย และเพิ่มขึ้นในทุก ๆ มื้อจนกว่าเจ้าเหมียวจะคุ้นชิน ซึ่งแรก ๆ สัตว์เลี้ยงตัวโปรดของคุณอาจจะไม่ปลื้ม และกินอาหารได้น้อยลง แต่นั่นล่ะ คือผลลัพธ์สู่หุ่นสวยสุขภาพดี
+   ดังนั้น จงอย่าใจอ่อนเลยเชียวล่ะ อย่างไรก็ตาม แมวแต่ละตัวอาจมีสภาพร่างกายที่ต่างกัน เพราะฉะนั้น ควรปรึกษาสัตวแพทย์อย่างใกล้ชิด
+  </p>
+ 
+ 
+ 
+  </div>
+   
+   
+
+
+
+
+
+  );
+}
 
 export default Detail

@@ -13,6 +13,7 @@ import Step2 from "./Step2";
 import Update from "./Update";
 import UpdateStatus from "./UpdateStatus ";
 import Footer from "./../components/Footer";
+import Detail from "../components/Detail";
 
 
 
@@ -38,6 +39,7 @@ function Homepage(){
          <Route path="/step2" element={<Step2 />} />
          <Route path="/rearing" element={<Rearing />} />
          <Route path="/call" element={<Call/>}/>
+         <Route path="/detail" element={<Detail />} />
 
       </Routes>
       
