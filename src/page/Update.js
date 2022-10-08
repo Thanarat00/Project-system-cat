@@ -6,6 +6,7 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Upload from '../components/Upload';
 import './Home.css';
+import Video from '../components/Video';
 
 
   
@@ -25,8 +26,8 @@ import './Home.css';
 
         <div className='announce'>
    
-       <Row xs={2} md={2} className="g-4">
-         {Array.from({ length: 2 }).map((_, idx) => (
+       <Row xs={4} md={4} className="g-4">
+         {Array.from({ length: 4 }).map((_, idx) => (
            <Col>
              <Card>
                <Card.Img variant="top" src="/images/cat-sm1.jpg" />
@@ -43,16 +44,9 @@ import './Home.css';
                                         
                   </ul>
                  </Card.Text>
-                 <div className="d-grid gap-2">
-                  <Button variant="dark" type="submit">
-                    ดูวิดิโอ
-                  </Button>
-                  </div>
+                  <Video />
                 <br></br>
                  <Modal.Footer>
-                 <Button variant="primary" onClick={handleClose}>
-              บันทึก
-                 </Button>
                  <Button variant="danger" onClick={handleClose}>
               ลบ
                  </Button>

@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { AiFillEdit} from "react-icons/ai";
 import Form from 'react-bootstrap/Form';
- 
+import Uploadimagess from './Uploadimagess';
     function Edit() {
                 const [show, setShow] = useState(false);
 
@@ -17,8 +17,9 @@ import Form from 'react-bootstrap/Form';
   
         <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title></Modal.Title>
         </Modal.Header>
+        <Uploadimagess/>
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

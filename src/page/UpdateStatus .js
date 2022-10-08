@@ -22,7 +22,7 @@ import UploadVideo from '../components/UploadVideo';
       
         <div className='announce'>
    
-       <Row xs={2} md={2} className="g-4">
+       <Row xs={4} md={4} className="g-4">
          {Array.from({ length: 2 }).map((_, idx) => (
            <Col>
              <Card>
@@ -68,7 +68,7 @@ import UploadVideo from '../components/UploadVideo';
          ))}
        </Row>
 
-       <Row xs={2} md={2} className="g-4">
+       <Row xs={4} md={4} className="g-6">
          {Array.from({ length: 2 }).map((_, idx) => (
            <Col>
              <Card>

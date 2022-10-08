@@ -12,9 +12,9 @@ import Step1 from "./Step1";
 import Step2 from "./Step2";
 import Update from "./Update";
 import UpdateStatus from "./UpdateStatus ";
-import Footer from "./../components/Footer";
 import Detail from "../components/Detail";
-
+import Footer from "../components/Footer";
+import Detailrearin from "../components/Detailrearin";
 
 
 
@@ -24,11 +24,9 @@ import Detail from "../components/Detail";
 function Homepage(){
   
   return(
-    <div className="App"> 
-    <div className="bg ">
+   <>
     <BrowserRouter>
       <TheNavbar />
-      
       <Routes>
          <Route path="/" element={<Home />} />
          <Route path="/announce" element={<Announce/>} />
@@ -40,13 +38,12 @@ function Homepage(){
          <Route path="/rearing" element={<Rearing />} />
          <Route path="/call" element={<Call/>}/>
          <Route path="/detail" element={<Detail />} />
-
+         <Route path="/detailrearing" element={<Detailrearin />}/>
       </Routes>
       
   </BrowserRouter>
-  </div>
-    <Footer/>
-    </div>
+   <Footer />
+   </>
   )
 
 }

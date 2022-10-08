@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
-
+import './Footer.css';
 function Interested() {
   const [show, setShow] = useState(false);
 
@@ -12,16 +12,16 @@ function Interested() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="primary" onClick={handleShow} className="buttonz">
         สนใจ
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} size ='lg'>
         <Modal.Header closeButton>
-          <Modal.Title><center>ข้อตกลง</center></Modal.Title>
+          <Modal.Title></Modal.Title>
         </Modal.Header>
         <Modal.Body> 
-
+        <center><h2>ข้อตกลง</h2></center>
           <ul>
             <li>เมื่อีับเลี้ยงไปแล้วต้องทำการมีการอัพเดทลงบนเว็บไซต์ในหน้าแมวที่รับเลี้ยงตามข้อตกลงเป็นการบันทึกวิดิโอแบบเรียลไทม์</li>
             <li>หากไม่ทำตามข้อตกลงทางเว็บไซต์จะขอละเมิดลิขสิทธิ์ในการเอารูปถ่ายของผู้รับเลี้ยงแมวขึ้นบนเว็บไซต์ในหน้าบุคคลที่ไม่สามารถรับเลี้ยงแมวได้และผู้ใช้งานจะถูกระงับการใช้งาน</li>
@@ -31,9 +31,8 @@ function Interested() {
             <li>มาตรา 23 ห้ามปล่อย ละทิ้งสัตว์ ให้พ้นความดูแลของตนเองยกเว้นโอนกรรมสิทธิ์ให้ผู้อื่นดูแล</li>
             <li>มาตรา 24 การขนส่ง ขนย้ายสัตว์ต้องทำให้เหมาะตามชนิด ลักษณะ สภาพ และอายุของสัตว์</li>
             <li>มาตรา 25 ผู้ใดเป็นเจ้าของสัตว์ต้องดูแล ไม่ปล่อยทิ้ง หากผู้ที่เป็นเจ้าของสัตว์ ปล่อย ละทิ้ง ไม่ดูแลสัตว์ โดยไม่มีเหตุผลอันสมควร ซึ่งจะมีโทษปรับไม่เกิน 40,000 บาท</li>
-            <li></li>
-            
-          </ul>
+    
+          <br></br>
           <Form>
                 {['checkbox'].map((type) => (
                 <div key={`inline-${type}`} className="mb-3">
@@ -48,7 +47,7 @@ function Interested() {
                ))}
               </Form>
      
-
+              </ul>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

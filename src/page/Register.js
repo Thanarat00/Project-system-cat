@@ -29,12 +29,12 @@ function Register() {
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Username</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control type="email"  />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+          <Form.Control type="password"  />
         </Form.Group>
       </Row>
       <Row className="mb-3">

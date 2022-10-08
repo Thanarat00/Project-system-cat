@@ -16,29 +16,14 @@ export class Adopt extends Component {
            <div className='announce'>
 
 
-           <Row xs={2} md={2} className="g-4">
-      {Array.from({ length: 4 }).map((_, idx) => (
+           <Row xs={4} md={4} className="g-4">
+      {Array.from({ length: 8 }).map((_, idx) => (
         <Col>
           <Card>
             <Card.Img variant="top" src="/images/cat-sm1.jpg" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                <ul> 
-                    <li>This is a longer card with supporting textrythtdu67447456 </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text123321 </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    <li>This is a longer card with supporting text </li>
-                    
-               
-               </ul>
-              </Card.Text>
+              
               <Modal.Footer>
                 <Delete />
                  </Modal.Footer>

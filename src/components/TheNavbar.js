@@ -1,11 +1,11 @@
 import React from 'react'
-import { BsFillBellFill,} from "react-icons/bs";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from 'react-router-dom';
 import Login from '../page/Login';
+import Notify from './Notify';
 
 
 
@@ -43,9 +43,11 @@ function TheNavbar() {
 
         <Nav className="me-auto">
           <Navbar.Collapse className="justify-content-end">
-            <Nav.Link  className='text-light'>< BsFillBellFill/> </Nav.Link>
+            <Notify /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <Login/>
-   
+             <NavDropdown title = "User Name" >
+              
+             </NavDropdown>
            
         </Navbar.Collapse>
 

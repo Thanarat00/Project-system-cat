@@ -3,13 +3,13 @@ import './Footer.css';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import { ImUndo2 } from "react-icons/im";
+import Interested from "./Interested";
 function Detail() {
   return (
    <div className="cathead"> 
    <Link to="/rearing">
       <Button className="link"  variant="dark" ><ImUndo2 /></Button>
       </Link>
-    <h2>แมวเปอร์เซีย</h2>
     
    <div className="imagesss">
    
@@ -17,17 +17,21 @@ function Detail() {
 
    </div>
    <br></br>
-  <p className="p1">
-  1. หมั่นแปรงขนเป็นประจำ จุดเด่นของแมวเปอร์เซีย นั้นอยู่ที่ขนนุ่มยาวของมัน ที่ทำให้แมวเปอร์เซียดูสง่าหรูหรามากกว่าพันธุ์ไหน ๆ
-   จนเป็นที่ชื่นชอบของผู้คนมากมาย เราจึงควรดูแลขนของมันให้ดูนุ่มสลวยอยู่เสมอ ด้วยการใช้หวีแปรงขนให้แมวของคุณ อย่างน้อยวันละ 15 นาที 
-   นอกจากนี้ ควรเน้นในจุดที่น้องแมวของคุณไม่สามารถเอื้อมไปเลียขนไม่ถึง เป็นพิเศษด้วย เช่น ที่คอ ขา และหาง</p>
-   <p className="p1">
-    2. อย่าปล่อยให้แมวอ้วนจนเกินไป แม้ว่าแมวอ้วนกลมจะดูน่า รักน่าเอ็นดูก็เถอะ แต่เราก็ไม่ควรปล่อยให้อ้วนจนเกินไป เพราะมันจะไม่ดีกับสุขภาพร่างกายของเจ้าเหมียวแน ่ ๆ 
-  แต่ถ้าหากเผลอตามใจจน “เสียแมว” ไปแล้วล่ะก็ ยังไม่สายที่คุณจะจับเขามาเข้าคอร์สไดเอทด้วยการเลือกอาหารลดน้ำหนักสำหรับ แมวโดยเฉพาะ หรือปรับลดเนื้อสัตว์ 
-  เพิ่มผักทีละน้อย และเพิ่มขึ้นในทุก ๆ มื้อจนกว่าเจ้าเหมียวจะคุ้นชิน ซึ่งแรก ๆ สัตว์เลี้ยงตัวโปรดของคุณอาจจะไม่ปลื้ม และกินอาหารได้น้อยลง แต่นั่นล่ะ คือผลลัพธ์สู่หุ่นสวยสุขภาพดี
-   ดังนั้น จงอย่าใจอ่อนเลยเชียวล่ะ อย่างไรก็ตาม แมวแต่ละตัวอาจมีสภาพร่างกายที่ต่างกัน เพราะฉะนั้น ควรปรึกษาสัตวแพทย์อย่างใกล้ชิด
-  </p>
- 
+   <ul className="p1">
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+    <li >sdfdsfdsfsdsdsdfdsfdsfdsfdssdfdsfdsfdsdsfdsfdsfsd</li>
+   </ul>
+
+    <Interested />
  
  
   </div>
